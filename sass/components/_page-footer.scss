@@ -1,0 +1,100 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--background-color-hero-footer);
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: baseline;
+}
+
+/*================= Контакты футера =================*/
+
+.contacts-wrap {
+  margin-right: 70px;
+}
+.contacts {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.contacts-text {
+  margin-top: 0;
+  margin-bottom: 9px;
+
+  color: var(--title-text-color-hero-footer);
+}
+
+.footer-contacts__item {
+  margin-bottom: 9px;
+}
+
+.footer-contacts__link {
+  color: rgba(255, 255, 255, 0.6);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+/*================= social футера =================*/
+
+.footer-social {
+  margin-right: 93px;
+}
+
+.footer-social__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+/*================= Форма футера =================*/
+
+.footer-form__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+.footer-form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer-form-label {
+  margin-right: 12px;
+}
+
+.footer-form-input {
+  width: 370px;
+  height: 50px;
+  padding-left: 16px;
+
+  border-style: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: inherit;
+  color: rgba(255, 255, 255, 0.6);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+}

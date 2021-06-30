@@ -1,0 +1,44 @@
+.feature {
+  display: flex;
+}
+
+.feature__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.feature__icon {
+  display: flex;
+  width: inherit;
+  height: 120px;
+
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+  background-color: var(--button-primary-background);
+}
+
+.feature__svg {
+  height: inherit;
+}
+
+.feature__heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+
+.feature__paragraph {
+  margin: 0;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
