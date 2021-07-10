@@ -2,6 +2,12 @@
   display: flex;
 }
 
+.social__list--our-team {
+  margin-top: 16px;
+  justify-content: center;
+  fill: var(--static-color-svg-icons);
+}
+
 .social__item {
   display: flex;
   width: 44px;
@@ -33,12 +39,6 @@
     background-color: var(--accent-color);
     fill: var(--primary-white-color);
   }
-}
-
-.social__list--our-team {
-  margin-top: 16px;
-  justify-content: center;
-  fill: var(--static-color-svg-icons);
 }
 
 /*=============== social--footer =================*/
