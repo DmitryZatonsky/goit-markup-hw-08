@@ -838,8 +838,9 @@ img {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  min-width: 200px;
   border-radius: 4px;
-  padding: 10px 32px;
+  padding: 10px;
   border-width: 0px;
   font-family: inherit;
   font-weight: 700;
@@ -856,7 +857,6 @@ img {
 .btn-subscribe {
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
