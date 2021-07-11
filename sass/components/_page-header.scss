@@ -5,10 +5,14 @@
 .nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav__list {
   display: flex;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 
 .nav__item:not(:last-child) {
@@ -62,6 +66,9 @@
 .nav-contacts {
   display: flex;
   margin-left: auto;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 
 .nav-contacts__item:not(:last-child) {
@@ -98,4 +105,35 @@
 
   margin-left: auto;
   margin-right: 10px;
+}
+
+.menu-open {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-style: none;
+  background-color: inherit;
+  fill: var(--title-text-color);
+  &:hover {
+    fill: var(--accent-color);
+  }
+}
+
+.mobile-nav {
+  position: absolute;
+  background-color: var(--primary-white-color);
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  .container {
+    position: relative;
+  }
+}
+
+.menu-close {
+  position: absolute;
+  top: 21px;
+  right: 25px;
 }
