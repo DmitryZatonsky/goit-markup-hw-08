@@ -1,24 +1,26 @@
 .logo {
-  font-family: var(--auxiliary-font);
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--accent-color);
+    color: #000000; 
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+
+    &__web {
+        color: $accent-color;
+    }
+
+    &__studio {
+        color: $white-color; 
+    }
 }
 
-.nav .logo {
-  @media screen and (max-width: 1199px) {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-}
+.footer-logo {
+    margin-bottom: 20px;
+}  
 
-.logo--header {
-  // margin-right: 93px;
-  color: var(--header-logo);
-}
-
-.logo--footer {
-  display: inline-block;
-  margin-bottom: 20px;
-  color: var(--title-text-color-hero-footer);
+.header-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 60px;
 }
